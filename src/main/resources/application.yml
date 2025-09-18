@@ -9,3 +9,4 @@ spring:
         git:
           uri: https://github.com/caerusitproject/config-repo.git
           default-label: main
+          clone-on-start: true
