@@ -7,10 +7,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kkkkkk.git
+          uri: https://github.com/caerusitproject/config-repo.git
           default-label: main
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka-server:8761/eureka/
