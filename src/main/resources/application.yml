@@ -10,3 +10,11 @@ spring:
           uri: https://github.com/caerusitproject/config-repo.git
           default-label: main
           clone-on-start: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    hostname: config-server
+    instance-id: ${spring.application.name}:${server.port}
